@@ -107,4 +107,16 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-10-0-0-251.us-east-2.compute.internal-releases</name>
+        <url>http://18.218.9.92:8081/artifactory/rohit-release</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-10-0-0-251.us-east-2.compute.internal-snapshots</name>
+        <url>http://18.218.9.92:8081/artifactory/rohit-release</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
